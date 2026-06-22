@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale1">
+      <title>Bash Scripting cheat sheet</title>
+      <link rel="stylesheet" href="./cheat-sheet.css">
+    </head>
+    <body>
+      <header>
+        <section id="introduction">
+            <h1 id="title">Bash scripting - Cheat sheet</h1>
+            <hr>
+            <h4 class="text">Here you will find an introductory table presenting you with the basic commands required to use a shell terminal in the Bash scripting language</h4>
+        </section>
+        <section id="bash-description">
+            <h4>What is Bash scripting?</h4>
+            <p class="text">Bash scripting is using the Bash shell to automate tasks on Unix-like systems by writing commands in a script file.<br>It supports variables, loops, and conditionals, making it powerful for system administration, automation, and file processing.</p>
+        </section>
+      </header>
+      <main>
+        <section>
+            <table>
+                <thead>
+                    <tr id="columns-names">
+                        <th>Name</th>
+                        <th>Command</th>
+                        <th>Action</th>
+                        <th>Option</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>List</td>
+                        <td class="command-color">ls</td>
+                        <td>The <span class="command-color">ls</span> command is used to list the contents of a directory.<br>It displays directories, files and their information</td>
+                        <td><span class="option-color">-l</span> Long listing<br><span class="option-color">-a</span> Include hidden files<br><span class="option-color">-t</span> Sort by modification time<br><span class="option-color">-h</span> Human-readable sizes<br><span class="option-color">-R</span> List subdirectories recursively<br><span class="option-color">-1</span> List one file per line<br><span class="option-color">-d</span> List directories themselves, not their content</td>
+                    </tr>
+                    <tr>
+                        <td>Change Directory</td>
+                        <td class="command-color">cd</td>
+                        <td>The <span class="command-color">cd</span> command is used to change the current working directory in the terminal</td>
+                        <td><span class="option-color">.. </span>Move up one directory level <br><span class="option-color">~ </span>Change to the home directory <br><span class="option-color">- </span> Switch to the previous directory <br><span class="option-color">/ </span>Change the root directory <br></td>
+                    </tr>
+                    <tr>
+                        <td>Print Directory</td>
+                        <td class="command-color">pwd</td>
+                        <td>The <span class="command-color">pwd</span> command is used to show you the full path of the directory you're currently in</td>
+                        <td><span class="option-color">-L</span> Display the logical current working directory<br> <span class="option-color">-P</span> Display the physical current working directory structure<br></td>
+                    </tr>
+                    <tr>
+                        <td>Echo</td>
+                        <td class="command-color">echo</td>
+                        <td>The <span class="command-color">echo</span> command is used to show a line of text or a variable in the terminal</td>
+                        <td><span class="option-color">-n</span> Don't add a new line at the end of the output<br><span class="option-color">-e</span>  Allow special characters like i.e. '\n' for new lines<br><span class="option-color">-E</span> Don't allow special characters (default)<br></td>
+                    </tr>
+                    <tr>
+                        <td>Concatenate & Display</td>
+                        <td class="command-color">cat</td>
+                        <td>The <span class="command-color">cat</span> command is used to show the content of files in the terminal and to combine multiple files into one</td>
+                        <td><span class="option-color">-n</span> Add numbers to each line<br><span class="option-color">-b</span> Add numbers only to lines with text<br><span class="option-color">-s</span> Remove extra empty lines from output<br><span class="option-color">-v</span> Show non-printing characters (hidden characters)<br></td>
+                    </tr>
+                    <tr>
+                        <td>Copy</td>
+                        <td class="command-color">cp</td>
+                        <td>The <span class="command-color">cp</span> command is used to copy files and directories from one location to another</td>
+                        <td><span class="option-color">-r</span> Copy all files and folders inside a directory<br><span class="option-color">-i</span> Ask before replacing files<br><span class="option-color">-u</span> Copy only if the source is newer than the destination file<br><span class="option-color">-v</span> Verbose mode: show files being copied<br></td>
+                    </tr>
+                    <tr>
+                        <td>Move or Rename</td>
+                        <td class="command-color">mv</td>
+                        <td>The <span class="command-color">mv</span> command is used to move or rename files and directories</td>
+                        <td><span class="option-color">-i</span> Ask before replacing files<br><span class="option-color">-u</span> Move only if the source is newer than the destination file<br><span class="option-color">-v</span> <br>Verbose mode: show files being moved</td>
+                    </tr>
+                    <tr>
+                        <td>Remove</td>
+                        <td class="command-color">rm</td>
+                        <td>The <span class="command-color">rm</span> command is used to delete files or directories</td>
+                        <td><span class="option-color">-r</span> Delete a folder and everything inside it<br><span class="option-color">-i</span> Ask before deleting each file<br><span class="option-color">-f</span> Force delete without asking<br><span class="option-color">-v</span> Verbose mode: show files being deleted<br></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="command-color"></td>
+                        <td>The <span class="command-color"></span> command is used to</td>
+                        <td><span class="option-color"></span> <br><span class="option-color"></span> <br><span class="option-color"></span> <br><span class="option-color"></span> <br></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="command-color"></td>
+                        <td>The <span class="command-color"></span> command is used to</td>
+                        <td><span class="option-color"></span> <br><span class="option-color"></span> <br><span class="option-color"></span> <br><span class="option-color"></span> <br></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="command-color"></td>
+                        <td>The <span class="command-color"></span> command is used to</td>
+                        <td><span class="option-color"></span> <br><span class="option-color"></span> <br><span class="option-color"></span> <br><span class="option-color"></span> <br></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="command-color"></td>
+                        <td>The <span class="command-color"></span> command is used to</td>
+                        <td><span class="option-color"></span> <br><span class="option-color"></span> <br><span class="option-color"></span> <br><span class="option-color"></span> <br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+      </main>
+      <footer>
+        <h4>Grind hard and see you at work !</h4>
+      </footer>
+    </body>
+  </html>

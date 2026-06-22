@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Body section */
+
+body {
+     background-color: hsla(193, 80%, 10.4%, 0.97);
+     color: lightgrey;
+     font-family: 'Courier', 'Arial', sans-serif;
+     margin: 60px auto;
+     padding: 5% 20%;
+}
+
+
+/* Header section */
+
+#title {
+    
+}
+
+#introduction {
+    background-color: hsl(210, 20%, 53%);
+    padding: 10px 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.text {
+     line-height: 1.5;
+}
+
+#bash-description {
+    padding: 40px 0;
+}
+
+
+/* Table section */ 
+
+table {
+    border: 1px solid darkgrey;
+    padding-bottom: 20px;
+    margin: auto;
+    background-color: hsl(193, 80%, 10.4%, 0.98);
+}
+
+
+thead {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+th {
+    border: 0.5px solid lightgrey;
+    font-size: 1.1em;
+    padding: 20px;
+}
+
+td {
+    border: 0.5px solid darkgray;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+#columns-names {
+    text-align: center;
+}
+
+.command-color {
+    color: hsl(127 80% 60%);
+    font-weight: bold;
+}
+
+.option-color {
+    color: hsl(195 100% 80%);
+    font-weight: bold;
+}
+
+
+/* Footer section */
+
+footer {
+    background-color: hsl(210, 20%, 53%);
+    padding: 10px 50px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
